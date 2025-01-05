@@ -1,6 +1,3 @@
-"""
-This script runs the Comp2001_web_project application using a development server.
-"""
 
 from os import environ
 from Comp2001_web_project import app
