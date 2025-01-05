@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Comp2001 web project",
+      "appliesTo": "Comp2001 web project.sln",
+      "type": "launch"
+    }
+  ]
+}
