@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\env1"
+    "\\env",
+    "\\env1",
+    "\\env1\\Lib"
   ],
-  "SelectedNode": "\\Authentication.py",
+  "SelectedNode": "\\env\\Scripts",
   "PreviewInSolutionExplorer": false
 }
