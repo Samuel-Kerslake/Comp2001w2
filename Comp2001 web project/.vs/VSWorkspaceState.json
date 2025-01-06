@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\env",
-    "\\env1",
-    "\\env1\\Lib"
+    "\\Comp2001_web_project",
+    "\\Comp2001_web_project\\static",
+    "\\env1"
   ],
-  "SelectedNode": "\\env\\Scripts",
+  "SelectedNode": "\\Comp2001_web_project\\views.py",
   "PreviewInSolutionExplorer": false
 }

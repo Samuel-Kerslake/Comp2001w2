@@ -1,4 +1,5 @@
 {
   "TestFramework": "Pytest",
-  "Interpreter": "env1\\Scripts\\python.exe"
+  "Interpreter": "env1\\Scripts\\python.exe",
+  "SuppressPackageInstallationPrompt": true
 }

@@ -4,7 +4,7 @@ from functools import wraps
 import requests
 import jwt
 import datetime
-from COMP2001w2 import app, views
+from Comp2001_web_project import app, views, Models
 from Authentication import token_required, role_required, SECRET_KEY
 
 # Initialize the Flask-RESTX API
@@ -30,7 +30,6 @@ api.authorizations = {
 users_ns = api.namespace('users', description='User  operations')
 trails_ns = api.namespace('trails', description='Trail operations')
 features_ns = api.namespace('features', description='Feature operations')
-views_ns = api.namespace('views', description='View operations')
 auth_ns = api.namespace('auth', description='Authentication operations')
 
 # Define models for request and response validation
@@ -224,7 +223,7 @@ class Features(Resource):
     def post(self):
         return views.create_feature()
 
-@features_ns.route('/< string:feature_id>')
+@features_ns.route('/<string:feature_id>')
 @features_ns.param('feature_id', 'The feature ID')
 class Feature(Resource):
     @features_ns.doc('get_feature_by_id')
@@ -244,11 +243,6 @@ class Feature(Resource):
     def delete(self, feature_id):
         return views.delete_feature(feature_id)
 
-@views_ns.route('')
-class Views(Resource):
-    @views_ns.doc('get_all_views')
-    def get(self):
-        return views.get_all_views()
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8000)
