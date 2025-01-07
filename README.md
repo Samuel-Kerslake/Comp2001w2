@@ -1,0 +1,3 @@
+my micro service uses azure data studio for the data base and visual studio 2022 to host the python code that allows the app to operate ive used swagger for the front end designs and used flask-restx to manage interactions with the database
+the service allows the users to at the beguinning to view trails in the system and then once they login using accounts already in the system itll generate a key so that they can use the service for an hour before they need to login again
+once loged in they can then add,delete and update trails in the system and also see what other users there are of the app.
