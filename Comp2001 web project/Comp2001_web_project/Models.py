@@ -11,7 +11,7 @@ class User(db.Model):
     Password = db.Column(db.String(20))
     UserRole = db.Column(db.String(10), nullable=False, default='User')
     
-    trail_logs = db.relationship('TrailCreationLog', backref='user', lazy=True)
+ 
 
 class Trail(db.Model):
     __tablename__ = 'TRAIL'
