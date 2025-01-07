@@ -27,7 +27,7 @@ class Trail(db.Model):
     Distance = db.Column(db.Float)
     ElevationGain = db.Column(db.DECIMAL(10, 2))
     RouteType = db.Column(db.String(50))
-    OwnedBy = db.Column(db.String(10), db.ForeignKey('User.UserID'))
+    OwnerID = db.Column(db.String(10)), 
     Rating = db.Column(db.Float)
     EstimatedTime = db.Column(db.String(10))
     Pt1_Lat = db.Column(db.DECIMAL(10, 6))

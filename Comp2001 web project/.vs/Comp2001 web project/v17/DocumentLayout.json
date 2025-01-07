@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\DockerFile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DockerFile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Authentication.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Authentication.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\runserver.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:runserver.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Comp2001_web_project\\Models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Comp2001_web_project\\Models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Comp2001_web_project\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Comp2001_web_project\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Comp2001_web_project\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Comp2001_web_project\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Authentication.py",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Authentication.py",
+              "RelativeDocumentMoniker": "Authentication.py",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Authentication.py",
+              "RelativeToolTip": "Authentication.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-07T00:46:12.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DockerFile",
-              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\DockerFile",
-              "RelativeDocumentMoniker": "DockerFile",
-              "ToolTip": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\DockerFile",
-              "RelativeToolTip": "DockerFile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-01-06T18:42:33.832Z",
+              "WhenOpened": "2025-01-07T00:33:06.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Models.py",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Comp2001_web_project\\Models.py",
+              "RelativeDocumentMoniker": "Comp2001_web_project\\Models.py",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Comp2001_web_project\\Models.py",
+              "RelativeToolTip": "Comp2001_web_project\\Models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-07T00:28:07.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "runserver.py",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\runserver.py",
+              "RelativeDocumentMoniker": "runserver.py",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\runserver.py",
+              "RelativeToolTip": "runserver.py",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-07T00:27:44.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "views.py",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Comp2001_web_project\\views.py",
+              "RelativeDocumentMoniker": "Comp2001_web_project\\views.py",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Comp2001_web_project\\views.py",
+              "RelativeToolTip": "Comp2001_web_project\\views.py",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAAAJkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-07T00:21:21.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "__init__.py",
+              "DocumentMoniker": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Comp2001_web_project\\__init__.py",
+              "RelativeDocumentMoniker": "Comp2001_web_project\\__init__.py",
+              "ToolTip": "C:\\Users\\Sam\\Documents\\GitHub\\Comp2001w2\\Comp2001w2\\Comp2001 web project\\Comp2001_web_project\\__init__.py",
+              "RelativeToolTip": "Comp2001_web_project\\__init__.py",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-01-07T00:15:44.304Z",
               "EditorCaption": ""
             }
           ]

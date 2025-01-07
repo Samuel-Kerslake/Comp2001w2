@@ -100,14 +100,14 @@ def create_trail():
         if not all(key in data for key in required_fields):
             return jsonify({"message": "All trail and coordinate fields are required"}), 400
 
-        data['UserID'] = data['OwnedBy'] 
+        data['UserID'] = data['OwnerID'] 
 
         query = text("""
             EXEC [CW2].[AddTrail] 
             @TrailID = :TrailID, @TrailName = :TrailName, @TrailSummary = :TrailSummary,
             @TrailDescription = :TrailDescription, @Difficulty = :Difficulty, 
             @Location = :Location, @Distance = :Distance, @ElevationGain = :ElevationGain, 
-            @RouteType = :RouteType, @OwnedBy = :OwnedBy, @Rating = :Rating, 
+            @RouteType = :RouteType, @OwnerID = :OwnerID, @Rating = :Rating, 
             @EstimatedTime = :EstimatedTime,
             @Pt1_Desc = :Pt1_Desc, @Pt1_Lat = :Pt1_Lat, @Pt1_Long = :Pt1_Long,
             @Pt2_Desc = :Pt2_Desc, @Pt2_Lat = :Pt2_Lat, @Pt2_Long = :Pt2_Long,
@@ -133,7 +133,7 @@ def update_trail(trail_id):
         required_fields = [
             'TrailName', 'TrailSummary', 'TrailDescription', 
             'Difficulty', 'Location', 'Distance', 'ElevationGain', 'RouteType', 
-            'OwnedBy', 'Rating', 'EstimatedTime',
+            'OwnerID', 'Rating', 'EstimatedTime',
             'Pt1_Desc', 'Pt1_Lat', 'Pt1_Long',
             'Pt2_Desc', 'Pt2_Lat', 'Pt2_Long',
             'Pt3_Desc', 'Pt3_Lat', 'Pt3_Long',
@@ -144,14 +144,14 @@ def update_trail(trail_id):
         if not all(key in data for key in required_fields):
             return jsonify({"message": "All trail and coordinate fields are required"}), 400
 
-        data['UserID'] = data['OwnedBy'] 
+        data['UserID'] = data['OwnerID'] 
 
         query = text("""
             EXEC [CW2].[UpdateTrail] 
             @TrailID = :TrailID, @TrailName = :TrailName, @TrailSummary = :TrailSummary,
             @TrailDescription = :TrailDescription, @Difficulty = :Difficulty, 
             @Location = :Location, @Distance = :Distance, @ElevationGain = :ElevationGain, 
-            @RouteType = :RouteType, @OwnedBy = :OwnedBy, @Rating = :Rating, 
+            @RouteType = :RouteType, @OwnerID = :OwnerID, @Rating = :Rating, 
             @EstimatedTime = :EstimatedTime,
             @Pt1_Desc = :Pt1_Desc, @Pt1_Lat = :Pt1_Lat, @Pt1_Long = :Pt1_Long,
             @Pt2_Desc = :Pt2_Desc, @Pt2_Lat = :Pt2_Lat, @Pt2_Long = :Pt2_Long,
